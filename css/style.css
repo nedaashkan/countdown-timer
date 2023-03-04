@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("/image/oliver-pacas-LGD8eV8ar4E-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -10rem;
+  color: rgb(236, 228, 218);
+  text-shadow: 0 0 15px #775438;
+}
+.countdown-container {
+  display: flex;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+  font-weight: bold;
+  background-color: #775438;
+  box-shadow: 0 0 5px #775438;
+  opacity: 0.9;
+  color: rgb(236, 228, 218);
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 150px;
+}
+.countdown-el {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 1.5rem;
+  color: rgb(236, 228, 218);
+  text-shadow: 0 0 20px #bb8257;
+}
+.massage {
+  font-size: 3rem;
+  line-height: 1;
+  margin: 0 2rem;
+  font-weight: bold;
+  background-color: #775438;
+  box-shadow: 0 0 5px #775438;
+  opacity: 0.9;
+  color: rgb(236, 228, 218);
+  border-radius: 8px;
+  padding: 20px 15px;
+  margin-top: 3rem;
+}
